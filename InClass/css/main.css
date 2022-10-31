@@ -1,0 +1,44 @@
+body {}
+
+/* Header/Blog Title */
+.header {}
+
+.header h1 {}
+
+/* Style the top navigation bar */
+.topnav {}
+
+/* Style the topnav links */
+.topnav a {}
+
+/* Change color on hover */
+.topnav a:hover {}
+
+/*Use a grid for the image cards */
+.grid {}
+
+/* Add a card effect for articles */
+.image-card {}
+
+.image-card h2 {}
+
+/* Add a card effect for articles */
+.card {}
+
+img {}
+
+.row {}
+
+/* Clear floats after the columns */
+.row:after {}
+
+/* Footer */
+.footer {
+    padding: 20px;
+
+
+    /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 800px) {}
+
+    /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+    @media screen and (max-width: 400px) {}
