@@ -1,24 +1,54 @@
-body {}
+body {
+    background-color: darkblue;
+}
 
 /* Header/Blog Title */
-.header {}
+.header {
+    text-align: center;
+}
 
-.header h1 {}
+.header h1 {
+    font-size: 64;
+}
 
 /* Style the top navigation bar */
-.topnav {}
+.topnav {
+    width: 100%;
+    overflow: hidden;
+    background-color: aqua;
+}
 
 /* Style the topnav links */
-.topnav a {}
+.topnav a {
+    float: right;
+    display: block;
+    padding: 14px;
+    text-align: center;
+    text-decoration: none;
+}
 
 /* Change color on hover */
-.topnav a:hover {}
+.topnav a:hover {
+    background-color: azure;
+    color: black;
+}
 
 /*Use a grid for the image cards */
-.grid {}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    padding: 20px;
+}
 
 /* Add a card effect for articles */
-.image-card {}
+.image-card {
+    background-size: cover;
+    position: relative;
+    padding: 100px;
+    margin-top: 20px;
+}
 
 .image-card h2 {}
 
