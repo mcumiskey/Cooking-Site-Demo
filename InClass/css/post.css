@@ -1,3 +1,33 @@
 body {
-    background: pink;
+    padding: 30px;
+    font-family: 'EB Garamond', serif;
+
+}
+
+.imageBG {
+    background-image: url("/Cooking-Site-Demo/InClass/images/no-knead-crusty-white-bread_kingarthur.jpg");
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    padding: 50px;
+    color: white;
+}
+
+.imageBG a {
+
+    color: aqua;
+}
+
+.container {
+    display: flex;
+}
+
+.ingredients {
+    float: left;
+}
+
+@media screen and (max-width:600px) {
+    .container {
+        display: block;
+    }
 }
